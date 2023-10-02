@@ -1,141 +1,165 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
 
-      <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="" />
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-      <title>Responsive headphones website - Bedimcode</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         <nav class="nav container">
-            <a href="#" class="nav__logo">JBL</a>
+    <title>Responsive headphones website - Bedimcode</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">JBL</a>
 
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li class="nav__item">
-                     <a href="#home" class="nav__link">Home</a>
-                  </li>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
 
-                  <li class="nav__item">
-                     <a href="#about" class="nav__link">About</a>
-                  </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
 
-                  <li class="nav__item">
-                     <a href="#favorite" class="nav__link">Favorites</a>
-                  </li>
+            <li class="nav__item">
+              <a href="#favorite" class="nav__link">Favorites</a>
+            </li>
 
-                  <li class="nav__item">
-                     <a href="#model" class="nav__link">Models</a>
-                  </li>
-               </ul>
+            <li class="nav__item">
+              <a href="#model" class="nav__link">Models</a>
+            </li>
+          </ul>
 
-               <!-- Close Button -->>
-               <div class="nav__close" id="nav-close">
-                  <i class="ri-close-line"></i>
-               </div>
+          <!-- Close Button -->>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle Button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <img src="assets/img/home-img.png" alt="image" class="home__img" />
+
+            <h1 class="home__title">
+              <span>J</span>
+              <span>B</span>
+              <span>L</span>
+            </h1>
+
+            <div class="home__tooltip">
+              <img
+                src="assets/img/tooltip-right.svg"
+                alt=""
+                class="home__tooltip-img"
+              />
+              <span class="home__tooltip-text">$150</span>
             </div>
+          </div>
 
-            <!-- Toggle Button -->
-            <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-menu-line"></i>
+          <a href="#" class="home__button button">
+            Buy Now <i class="ri-play-circle-fill"></i>
+          </a>
+
+          <div class="home__social">
+            <span class="home__social-text">Follow us</span>
+
+            <div class="home__social-links">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-fill"></i>
+              </a>
+
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-facebook-circle-fill"></i>
+              </a>
+
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-youtube-fill"></i>
+              </a>
             </div>
-         </nav>
-      </header>
+          </div>
+        </div>
+      </section>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            <div class="home__container container grid">
-               <div class="home__content">
-                  <img src="assets/img/home-img.png" alt="image" class="home__img">
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">MORE ABOUT US</h2>
 
-                  <h1 class="home__title">
-                     <span>J</span>
-                     <span>B</span>
-                     <span>L</span>
-                  </h1>
+            <p class="about__description">
+              Enjoy award-winning JBL sound with wireless listening freedom and
+              a sleek, streamlined design with comfortable cushioned earcups
+              that deliver premium playback for the user.
+            </p>
+          </div>
+        </div>
+      </section>
 
-                  <div class="home__tooltip">
-                     <img src="assets/img/tooltip-right.svg" alt="" class="home__tooltip-img">
-                     <span class="home__tooltip-text">$150</span>
-                  </div>
-               </div>
+      <!--==================== FAVORITE ====================-->
+      <section class="favorite section" id="favorite"></section>
 
-               <a href="#" class="home__button botten">
-                  Buy Now <i class="ri-play-circle-fill"></i>
-               </a>
+      <!--==================== MODEL ====================-->
+      <section class="model section" id="model"></section>
 
-               <div class="home__social">
-                  <span class="home__social-text">Follow us</span>
+      <!--==================== SPONSOR ====================-->
+      <section class="sponsor section"></section>
+    </main>
 
-                  <div class="home__social-links">
-                     <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
-                        <i class="ri-instagram-fill"></i>
-                     </a>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer"></footer>
 
-                     <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
-                        <i class="ri-facebook-circle-fill"></i>
-                     </a>
+    <!--========== SCROLL UP ==========-->
 
-                     <a href="https://www.youtube.com/" target="_blank" class="home__social-link">
-                        <i class="ri-youtube-fill"></i>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </section>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
 
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            
-         </section>
+    <!--=============== SWIPER JS ===============-->
+    <script src=""></script>
 
-         <!--==================== FAVORITE ====================-->
-         <section class="favorite section" id="favorite">
-            
-         </section>
-
-         <!--==================== MODEL ====================-->
-         <section class="model section" id="model">
-            
-         </section>
-
-         <!--==================== SPONSOR ====================-->
-         <section class="sponsor section">
-            
-         </section>
-      </main>
-
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         
-      </footer>
-
-      <!--========== SCROLL UP ==========-->
-      
-
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
-
-      <!--=============== SWIPER JS ===============-->
-      <script src=""></script>
-
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

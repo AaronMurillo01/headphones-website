@@ -40,6 +40,15 @@ window.addEventListener('scroll', blurHeader)
 /*=============== SWIPER FAVORITES ===============*/ 
 let swiperFavorite = new Swiper('.favorite__swiper', {
     loop: true,
+    slidesPerView: 'auto',
+    centeredSlides: 'auto',
+    grabCursor: true,
+
+    breakpoint: {
+        768:{
+            slidesPerView: 3,
+        }
+    }
 })
 
 /*=============== SHOW SCROLL UP ===============*/ 

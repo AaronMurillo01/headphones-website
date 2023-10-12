@@ -820,6 +820,11 @@ footer__button {
     transform: translate(82px, -52px);
   }
 
+  .model__tooltip-1 {
+    top: 7.5rem;
+    left: 8.5rem;
+  }
+
   .model__tooltip-1 .model__tooltip-text {
     transform: translate(82px, -52px) scaleX(-1);
   }
@@ -844,26 +849,45 @@ footer__button {
     transform: translate(82px, -52px) scaleX(-1);
   }
 
-  .model__tooltip-4{
+  .model__tooltip-4 {
     bottom: 10rem;
     right: 7rem;
   }
 
-  .sponsor__container{
+  .sponsor__container {
     column-gap: 7.5rem;
     padding-bottom: 6rem;
   }
 
-  .footer{
+  .footer {
     padding-bottom: 3rem;
   }
 
-  .footer__data{
+  .footer__data {
     column-gap: 6rem;
   }
 
-  .footer__form{
+  .footer__form {
     grid-template-columns: 1fr max-content;
     background-color: var(--container-color);
+    padding: 0.5rem;
+    border-radius: 4rem;
+    width: 380px;
+  }
+
+  .footer__social {
+    column-gap: 1.5rem;
+  }
+
+  .footer__social-link {
+    font-size: 1.5rem;
+  }
+
+  .footer__copy {
+    margin-top: 7.5rem;
+  }
+
+  .scrollup {
+    right: 3rem;
   }
 }
